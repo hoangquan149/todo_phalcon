@@ -31,11 +31,11 @@ try {
      * Include Autoloader
      */
     include APP_PATH . '/config/loader.php';
-    die('chay');
     /**
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
+    die("chet");
     echo $application->handle()->getContent();
 
 } catch (\Exception $e) {
