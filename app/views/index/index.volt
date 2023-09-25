@@ -1,4 +1,4 @@
-<div class="my-3 d-flex justify-content-end">
+<!-- <div class="my-3 d-flex justify-content-end">
 	<a class="btn btn-primary" href="/index/form" role="button">Create</a>
 </div>
 <div>
@@ -34,4 +34,5 @@
 			{% endfor %}
 		</tbody>
 	</table>
-{% endif %}
+{% endif %} -->
+<h1>HELLO WORD</h1>
