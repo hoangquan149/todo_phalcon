@@ -35,7 +35,6 @@ try {
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
-    die("chet");
     echo $application->handle()->getContent();
 
 } catch (\Exception $e) {
