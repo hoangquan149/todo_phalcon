@@ -6,8 +6,8 @@ class IndexController extends ControllerBase
 
     public function indexAction()
     {
-        // $todos = Todo::getTodos();
-        // $this->view->todos = $todos;
+        $todos = Todo::getTodos();
+        $this->view->todos = $todos;
     }
 
     
