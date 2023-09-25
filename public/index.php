@@ -27,12 +27,11 @@ try {
      * Get config service for use in inline setup below
      */
     $config = $di->getConfig();
-    die('heare');
     /**
      * Include Autoloader
      */
     include APP_PATH . '/config/loader.php';
-
+    die('chay');
     /**
      * Handle the request
      */
