@@ -1,6 +1,6 @@
 <?php
 use Phalcon\Di\FactoryDefault;
-
+die('dadas');
 error_reporting(E_ALL);
 
 define('BASE_PATH', dirname(__DIR__));
