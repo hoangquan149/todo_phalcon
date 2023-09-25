@@ -1,6 +1,5 @@
 <?php
 use Phalcon\Di\FactoryDefault;
-die('dadas');
 error_reporting(E_ALL);
 
 define('BASE_PATH', dirname(__DIR__));
@@ -28,7 +27,7 @@ try {
      * Get config service for use in inline setup below
      */
     $config = $di->getConfig();
-
+    die('heare');
     /**
      * Include Autoloader
      */
@@ -38,7 +37,6 @@ try {
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
-
     echo $application->handle()->getContent();
 
 } catch (\Exception $e) {
